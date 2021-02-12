@@ -22,7 +22,7 @@ app.use('/product',prodRoute);
 
 
 
-mongoose.connect('mongodb+srv://dbUser:db123@cluster0.0c2pp.mongodb.net/rest?retryWrites=true&w=majority',{ useNewUrlParser: true ,useUnifiedTopology: true},()=>{
+mongoose.connect('db link',{ useNewUrlParser: true ,useUnifiedTopology: true},()=>{
     console.log("Connect to db");
 })
 
